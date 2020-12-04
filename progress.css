@@ -7,27 +7,32 @@ table {
    padding: 5px;
    text-align: left;
    border: hidden;
+   background-color: white;
+  
   
    }
    
    
    table {
-       border-spacing: 2px;
+       border-collapse:collapse;
    }
    th {
-       background-color: orange; 
+      
        border-bottom: 5px solid gray;
        font-weight: bolder;
        text-align: center;
-       padding: 5px;
+       padding: 10px;
        border-left: hidden;
        border-right: hidden;
        border-top: 5px solid gray;
+       background-color: gray;
+      
+
 
    }
 
    .status {
-       background-color: orange;
+       background-color:gray;
        border-bottom: 5px solid gray;
        font-weight: bold;
        
@@ -36,3 +41,21 @@ table {
    .header {
        border-bottom: none ;
    }
+   .table-container {
+       background-color: orange;
+       border-radius: 10px;
+       display: flex;
+       justify-content: center;
+       border: 5px ;
+       padding: 5rem;
+       margin: 1rem;
+   }
+  .table-headers {
+      border-radius: 10px;
+  }
+  .table-body {
+      border-radius: 10px;
+  }
+  caption {
+      font-size: 2rem;
+  }
